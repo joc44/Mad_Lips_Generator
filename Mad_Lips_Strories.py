@@ -66,15 +66,16 @@ def play():
     game_over = False
     choice = input("Which story do you want? 'story1' or 'story2' ")
 
-    while not game_over:
+     while not game_over:
         if choice == "story1":
             stroy1()
             return
-        elif choice != "story1":
-            return
-
+        
         elif choice == "story2":
             story2()
+            return
+
+        elif choice != "story1":
             return
 
 
