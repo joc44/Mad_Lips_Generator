@@ -79,7 +79,7 @@ def play():
 
 
 
-while input("Do you want play ? 'y' or 'n' ") == 'y':
+while input("Do you want to play ? 'y' or 'n' ") == 'y':
     play()
 
 
