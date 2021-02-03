@@ -69,14 +69,14 @@ def play():
      while not game_over:
         if choice == "story1":
             stroy1()
-            return
+            break
         
         elif choice == "story2":
             story2()
-            return
+            break
 
         elif choice != "story1":
-            return
+            break
 
 
 
